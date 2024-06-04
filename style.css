@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(132deg,#01080f , #33048a);
+    color: #fff;
+    padding: 10px;
+}
+
+.age-cal {
+    width: 100%;
+    max-width: 800px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.age-cal h1 {
+    font-size: 55px;
+}
+
+.age-cal h1 span {
+    color: #04fa4e;
+}
+
+.input-box {
+    margin: 40px;
+    padding: 35px;
+    border-radius: 12px;
+    background: rgba(225, 255, 255, 0.4);
+    display: flex;
+    align-items: center;
+}
+
+.input-box input {
+    flex: 1;
+    margin-right: 20px;
+    padding: 14px 20px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.car-model{
+    margin: 40px;
+    padding: 35px;
+    border-radius: 12px;
+    background: rgba(225, 255, 255, 0.4);
+    display: flex;
+    align-items: center;
+}
+.car-model input{
+    flex: 1;
+    margin-right: 20px;
+    padding: 14px 20px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    border-radius: 10px;
+    position: relative;
+}
+.input-box button {
+    padding: 13px 26px;
+    border: 0;
+    outline: 0;
+    background: #04fa4e;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    font-size: 15px;
+}
+#result{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-left: 12%;
+}
+
+#result span {
+    color: #04fa4e;
+
+}
